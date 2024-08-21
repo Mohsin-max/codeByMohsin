@@ -1,0 +1,52 @@
+
+.navbar-brand h3{
+
+    color: #6E07F3;
+    font-size: 40px;
+    // font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: "New Amsterdam";
+    transition: 0.5s;
+    
+}
+
+.navbar-brand h3:hover{
+    
+    color: transparent;
+    -webkit-text-stroke: 1.2px #6E07F3;
+
+}
+
+.nav-link{
+    position: relative;
+    font-size: 17px;
+}
+
+.nav-link::after{
+
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    height: 2px;
+    background-color: #6E07F3;
+    transition: 0.5s;
+
+}
+
+.nav-link:hover.nav-link::after{
+
+    width: 100%;
+
+}
+
+@media (max-width: 480px){
+
+    .navbar-brand h3{
+
+        font-size: 24px;
+
+    }
+
+}

@@ -1,0 +1,68 @@
+.container-fluid {
+
+    background:linear-gradient(#6E07F3,#e100ff96) ;
+    margin-top: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+}
+
+.heading h2 {
+
+    font-family: "New Amsterdam";
+    letter-spacing: 1.2px;
+    margin-top: 40px;
+    font-size: 70px;
+}
+
+.text p {
+
+    font-size: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+    margin-top: 30px;
+}
+
+.allSocials{
+
+    margin: 50px 0;
+    display: flex;
+    gap: 40px;
+
+}
+
+.allSocials a{
+
+    text-decoration: none;
+}
+
+.allSocials a i {
+
+    color: white;
+    font-size: 25px;
+    border: 2.3px solid rgba(255, 255, 255, 0.726);
+    padding: 12px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.allSocials a i:hover{
+
+    background-color: white;
+    color: #6E07F3;
+
+}
+
+.copyright p{
+
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.753);
+    margin-bottom: 20px;
+}
+
+.copyright p i{
+
+    font-size: 21px;
+    font-weight: 300;
+
+}
