@@ -1,9 +1,9 @@
 .home-heading h1{
 
-    font-size: 7rem;
+    font-size: 5.5rem;
     // font-size: calc(4rem + 2vw);
     font-family: "New Amsterdam";
-    line-height: 100px;
+    line-height: 90px;
     background: linear-gradient(90deg, #00d1ec,#6E07F3,#f7d307);
     background-size: 200% 200%;
     -webkit-background-clip: text;
@@ -116,6 +116,17 @@
 // --------------
 
 @media (max-width: 480px) {
+
+    .home-text p{
+
+        margin-top: 40px;
+        width: 100%;
+        line-height: 30px;
+        // background-color: #00d1ec;
+        font-size: 22px;
+    
+    }
+    
 
     .home-heading h1{
 

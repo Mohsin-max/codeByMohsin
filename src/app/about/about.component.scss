@@ -2,9 +2,8 @@
 
 .about-heading h2{
 
-    font-size: 5.5rem;
+    font-size: 5.2rem;
     font-family: "New Amsterdam";
-    text-align: center;
     background: linear-gradient(90deg, #00d1ec,#6E07F3,#f7d307);
     background-size: 200% 200%;
     -webkit-background-clip: text;
@@ -20,10 +19,36 @@
 
 .about-text{
 
-    text-align:center;
+    // text-align:center;
     width: 80%;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: 10px;
 
 }
 
+.about-image img{
+
+    width: 95%;
+
+} 
+
+@media (max-width: 480px){
+
+    
+.about-heading h2{
+
+    font-size: 4.5rem;
+
+}
+
+.about-text{
+
+    width: 90%;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+
+
+}
